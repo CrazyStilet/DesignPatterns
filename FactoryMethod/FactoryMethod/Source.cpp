@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 
 enum OS
@@ -17,7 +17,7 @@ class WindowsForms:public Forms
 public:
 	WindowsForms()
 	{
-		cout << "Êíîïêè, òåêñòîâûå ïîëÿ, ðàäèî-êíîïêè è ò.ä. ñòèëÿ Windows ñîçäàíû" << endl;
+		cout << "ÐšÐ½Ð¾Ð¿ÐºÐ¸, Ñ‚ÐµÐºÑÑ‚Ð¾Ð²Ñ‹Ðµ Ð¿Ð¾Ð»Ñ, Ñ€Ð°Ð´Ð¸Ð¾-ÐºÐ½Ð¾Ð¿ÐºÐ¸ Ð¸ Ñ‚.Ð´. ÑÑ‚Ð¸Ð»Ñ Windows ÑÐ¾Ð·Ð´Ð°Ð½Ñ‹" << endl;
 	}
 };
 
@@ -26,7 +26,7 @@ class LinuxForms: public Forms
 public:
 	LinuxForms()
 	{
-		cout << "Êíîïêè, òåêñòîâûå ïîëÿ, ðàäèî-êíîïêè è ò.ä. ñòèëÿ Linux ñîçäàíû" << endl;
+		cout << "ÐšÐ½Ð¾Ð¿ÐºÐ¸, Ñ‚ÐµÐºÑÑ‚Ð¾Ð²Ñ‹Ðµ Ð¿Ð¾Ð»Ñ, Ñ€Ð°Ð´Ð¸Ð¾-ÐºÐ½Ð¾Ð¿ÐºÐ¸ Ð¸ Ñ‚.Ð´. ÑÑ‚Ð¸Ð»Ñ Linux ÑÐ¾Ð·Ð´Ð°Ð½Ñ‹" << endl;
 	}
 };
 
@@ -35,7 +35,7 @@ class MacOSForms:public Forms
 public:
 	MacOSForms()
 	{
-		cout << "Êíîïêè, òåêñòîâûå ïîëÿ, ðàäèî-êíîïêè è ò.ä. ñòèëÿ MacOS ñîçäàíû" << endl;
+		cout << "ÐšÐ½Ð¾Ð¿ÐºÐ¸, Ñ‚ÐµÐºÑÑ‚Ð¾Ð²Ñ‹Ðµ Ð¿Ð¾Ð»Ñ, Ñ€Ð°Ð´Ð¸Ð¾-ÐºÐ½Ð¾Ð¿ÐºÐ¸ Ð¸ Ñ‚.Ð´. ÑÑ‚Ð¸Ð»Ñ MacOS ÑÐ¾Ð·Ð´Ð°Ð½Ñ‹" << endl;
 	}
 };
 
